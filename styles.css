@@ -1,0 +1,15 @@
+body {
+  background-color: lightblue;
+}
+
+#quote-box {
+  width: 400px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=styles.css.map */
