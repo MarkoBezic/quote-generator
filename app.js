@@ -1,4 +1,9 @@
-var quotes = [
+let quotes = [
+  {
+    quote:
+      "'If you don't produce, you won't thrive-no matter how skilled or talented you are'",
+    author: "-- Cal Newport",
+  },
   {
     quote: "'You can't steer a parked car'",
     author: "-- unknown",
@@ -14,7 +19,7 @@ var quotes = [
   },
   {
     quote:
-      "'Fall in love with some activity, and do it! Nobody ever figures out what life is all about, and it doesn't matter. Explore the world. Nearly everything is really interesting if you go into it deeply enough. Work as hard and as much as you want to on the things you like to do the best. Don't think about what you want to be, but what you want to do. Keep up some kind of a minimum with other things so that society doesn't stop you from doing anything at all.'",
+      "'Nobody ever figures out what life is all about, and it doesn't matter. Explore the world. Nearly everything is really interesting if you go into it deeply enough. ",
     author: "-- Richard P. Feynman",
   },
   {
@@ -23,17 +28,44 @@ var quotes = [
     author: "-- Charlie Chaplin",
   },
 ]
-
+let colors = ["#66ccff", "#66ff66", "#ff9966", "#ff33cc", "#9966ff"]
 const updateQuote = () => {
   let index = Math.floor(Math.random() * Math.floor(quotes.length))
-  document.getElementById("text").innerHTML = `${quotes[index].quote}`
-  document.getElementById("author").innerHTML = `${quotes[index].author}`
+  let quote = `${quotes[index].quote}`
+  let author = `${quotes[index].author}`
+  let string = `${quote} ${author}`
+  let urlString = encodeURIComponent(string.trim())
+  $("#text").fadeOut(200, () => {
+    $("#text").text(quote).fadeIn(400)
+  })
+
+  $("#author").fadeOut(200, () => {
+    $("#author").text(author).fadeIn(400)
+  })
+  $("#tweet-quote").attr(
+    "href",
+    `https://twitter.com/intent/tweet?text=${urlString}`
+  )
+  console.log(urlString)
 }
 
-const updateColors = () => {}
+const updateColors = () => {
+  let index = Math.floor(Math.random() * Math.floor(quotes.length))
+  let randomColor = colors[index]
+  $("#text, #author").animate({
+    color: randomColor,
+  })
+
+  $("body, button, svg").animate({
+    "background-color": randomColor,
+  })
+}
 
 const handleClick = () => {
+  updateColors()
   updateQuote()
 }
+
+$("*").ready(handleClick)
 
 $("#new-quote").click(handleClick)
