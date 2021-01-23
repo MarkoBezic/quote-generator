@@ -28,6 +28,11 @@ $(document).ready(() => {
         "'Failure is unimportant. It takes courage to make a fool of yourself.'",
       author: "-- Charlie Chaplin",
     },
+    {
+      quote:
+        "'Someone's sitting in the shade today because someone planted a tree a long time ago'",
+      author: "-- Warren Buffet",
+    },
   ];
   let colors = ["#66ccff", "#66ff66", "#ff9966", "#ff33cc", "#9966ff"];
 
