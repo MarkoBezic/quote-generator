@@ -33,8 +33,12 @@ $(document).ready(() => {
         "'Someone's sitting in the shade today because someone planted a tree a long time ago'",
       author: "-- Warren Buffet",
     },
+    {
+      quote: "'Once I made a decision, I never thought about it again.'",
+      author: "-- Michael Jordan",
+    },
   ];
-  let colors = ["#66ccff", "#66ff66", "#ff9966", "#ff33cc", "#9966ff"];
+  let colors = ["#66ccff", "#66ff66", "#ff9966", "#ff33cc", "#9966ff", "#42d1f5", "#42f5a7", "#ff5a36"], ;
 
   const updateQuote = () => {
     let index = Math.floor(Math.random() * Math.floor(quotes.length));
