@@ -38,7 +38,16 @@ $(document).ready(() => {
       author: "-- Michael Jordan",
     },
   ];
-  let colors = ["#66ccff", "#66ff66", "#ff9966", "#ff33cc", "#9966ff", "#42d1f5", "#42f5a7", "#ff5a36"], ;
+  let colors = [
+    "#66ccff",
+    "#66ff66",
+    "#ff9966",
+    "#ff33cc",
+    "#9966ff",
+    "#42d1f5",
+    "#42f5a7",
+    "#ff5a36",
+  ];
 
   const updateQuote = () => {
     let index = Math.floor(Math.random() * Math.floor(quotes.length));
@@ -60,7 +69,7 @@ $(document).ready(() => {
   };
 
   const updateColors = () => {
-    let index = Math.floor(Math.random() * Math.floor(quotes.length));
+    let index = Math.floor(Math.random() * Math.floor(colors.length));
     let randomColor = colors[index];
     $("#text, #author").animate({
       color: randomColor,
