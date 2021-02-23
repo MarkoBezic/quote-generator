@@ -37,6 +37,14 @@ $(document).ready(() => {
       quote: "'Once I made a decision, I never thought about it again.'",
       author: "-- Michael Jordan",
     },
+    {
+      quote: "'We first make our habits, and then our habits make us.'",
+      author: "-- John Dryden",
+    },
+    {
+      quote: "'If you fight for your limitations, you get to keep them'",
+      author: "-- Jim Kwik",
+    },
   ];
   let colors = [
     "#66ccff",
