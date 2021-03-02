@@ -53,8 +53,10 @@ $(document).ready(() => {
     "#ff33cc",
     "#9966ff",
     "#42d1f5",
-    "#42f5a7",
+    "#00fc8f",
     "#ff5a36",
+    "#3366ff",
+    "#6666ff",
   ];
 
   const updateQuote = () => {
