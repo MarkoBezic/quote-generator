@@ -48,7 +48,7 @@ $(document).ready(() => {
   ];
   let colors = [
     "#66ccff",
-    "#66ff66",
+    "#cc6699",
     "#ff9966",
     "#ff33cc",
     "#9966ff",
