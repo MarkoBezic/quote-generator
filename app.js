@@ -45,6 +45,11 @@ $(document).ready(() => {
       quote: "'If you fight for your limitations, you get to keep them'",
       author: "-- Jim Kwik",
     },
+    {
+      quote:
+        "'It does not matter how slowly you go as long as you do not stop'",
+      author: "-- Confucious",
+    },
   ];
   let colors = [
     "#66ccff",
