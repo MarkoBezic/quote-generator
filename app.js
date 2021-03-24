@@ -48,20 +48,17 @@ $(document).ready(() => {
     {
       quote:
         "'It does not matter how slowly you go as long as you do not stop'",
-      author: "-- Confucious",
+      author: "-- Confucius",
     },
-  ];
-  let colors = [
-    "#66ccff",
-    "#cc6699",
-    "#ff9966",
-    "#ff33cc",
-    "#9966ff",
-    "#42d1f5",
-    "#00fc8f",
-    "#33cc33",
-    "#3366ff",
-    "#6666ff",
+    {
+      quote:
+        "'It’s not how far you fall, but how high you bounce that counts.'",
+      author: "-- Zig Ziglar",
+    },
+    {
+      quote: "'Failure isn't fatal, but failure to change might be'",
+      author: "-- John Wooden",
+    },
   ];
 
   const updateQuote = () => {
@@ -84,8 +81,10 @@ $(document).ready(() => {
   };
 
   const updateColors = () => {
-    let index = Math.floor(Math.random() * Math.floor(colors.length));
-    let randomColor = colors[index];
+    const red = Math.floor(Math.random() * 255);
+    const blue = Math.floor(Math.random() * 255);
+    const green = Math.floor(Math.random() * 255);
+    let randomColor = `rgb(${red}, ${blue}, ${green})`;
     $("#text, #author").animate({
       color: randomColor,
     });
