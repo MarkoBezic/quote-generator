@@ -64,6 +64,10 @@ $(document).ready(() => {
         "'Do not think that what is hard for you to master is humanly impossible; and if it is humanly possible, consider it to be within your reach.'",
       author: "-- Marcus Aurelius",
     },
+    {
+      quote: "'You could be good today. But instead you choose tomorrow'",
+      author: "-- Marcus Aurelius",
+    },
   ];
 
   const updateQuote = () => {
