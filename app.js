@@ -68,6 +68,11 @@ $(document).ready(() => {
       quote: "'You could be good today. But instead you choose tomorrow'",
       author: "-- Marcus Aurelius",
     },
+    {
+      quote:
+        "'It's not that I'm so smart, it's just that I stay with a problem longer'",
+      author: "-- Albert Einstein",
+    },
   ];
 
   const updateQuote = () => {
