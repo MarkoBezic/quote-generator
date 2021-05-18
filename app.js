@@ -73,6 +73,10 @@ $(document).ready(() => {
         "'It's not that I'm so smart, it's just that I stay with a problem longer'",
       author: "-- Albert Einstein",
     },
+    {
+      quote: "'Energy and persistence conquer all things.'",
+      author: "-- Benjamin Franklin",
+    },
   ];
 
   const updateQuote = () => {
