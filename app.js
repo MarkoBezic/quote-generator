@@ -77,6 +77,10 @@ $(document).ready(() => {
       quote: "'Energy and persistence conquer all things.'",
       author: "-- Benjamin Franklin",
     },
+    {
+      quote: "'Discipline equals freedom'",
+      author: "-- Jocko Willink",
+    },
   ];
 
   const updateQuote = () => {
