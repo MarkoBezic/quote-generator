@@ -81,6 +81,11 @@ $(document).ready(() => {
       quote: "'Discipline equals freedom'",
       author: "-- Jocko Willink",
     },
+    {
+      quote:
+        "'You'll have far better luck toughening yourself up than ever will trying to take the teeth out of a world that is - at best - indifferent to your existence'",
+      author: "-- Ryan Holiday",
+    },
   ];
 
   const updateQuote = () => {
