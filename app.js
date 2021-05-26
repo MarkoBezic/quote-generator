@@ -86,6 +86,10 @@ $(document).ready(() => {
         "'You'll have far better luck toughening yourself up than ever will trying to take the teeth out of a world that is - at best - indifferent to your existence'",
       author: "-- Ryan Holiday",
     },
+    {
+      quote: "'I find that the harder I work, the more luck I seem to have'",
+      author: "-- Thomas Jefferson",
+    },
   ];
 
   const updateQuote = () => {
