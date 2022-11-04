@@ -78,17 +78,22 @@ $(document).ready(() => {
       author: "-- Benjamin Franklin",
     },
     {
-      quote: "'Discipline equals freedom'",
+      quote: "'Discipline equals freedom.'",
       author: "-- Jocko Willink",
     },
     {
       quote:
-        "'You'll have far better luck toughening yourself up than ever will trying to take the teeth out of a world that is - at best - indifferent to your existence'",
+        "'You'll have far better luck toughening yourself up than ever will trying to take the teeth out of a world that is - at best - indifferent to your existence.'",
       author: "-- Ryan Holiday",
     },
     {
-      quote: "'I find that the harder I work, the more luck I seem to have'",
+      quote: "'I find that the harder I work, the more luck I seem to have.'",
       author: "-- Thomas Jefferson",
+    },
+    {
+      quote:
+        "'A comedian does funny things. A good comedian does things funny.'",
+      author: "-- Buster Keaton",
     },
   ];
 
