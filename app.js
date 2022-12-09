@@ -95,6 +95,11 @@ $(document).ready(() => {
         "'A comedian does funny things. A good comedian does things funny.'",
       author: "-- Buster Keaton",
     },
+    {
+      quote:
+        "'Sometimes its the panic about the work that's in your way, not the work itself.'",
+      author: "-- Dan Charnas",
+    },
   ];
 
   const updateQuote = () => {
