@@ -100,6 +100,10 @@ $(document).ready(() => {
         "'Sometimes its the panic about the work that's in your way, not the work itself.'",
       author: "-- Dan Charnas",
     },
+    {
+      quote: "'If one plan won't do, then another must.'",
+      author: "-- John Roebling",
+    },
   ];
 
   const updateQuote = () => {
