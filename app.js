@@ -109,6 +109,11 @@ $(document).ready(() => {
         "'...Man is after all a very finit being in his capacities and pwers of doing actual work...but when it comes to planning, one mind can in a few hours think out enough work to keep a thouseand men employed for years...'",
       author: "-- Washington Roebling",
     },
+    {
+      quote:
+        "'Don't ever be too impressed with goal setting. Be impressed with goal getting.'",
+      author: "-- John C. Maxwell",
+    },
   ];
 
   const updateQuote = () => {
