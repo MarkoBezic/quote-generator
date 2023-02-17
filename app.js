@@ -119,6 +119,11 @@ $(document).ready(() => {
         "'Be fearful when others are greedy and greedy when others are fearful'",
       author: "-- Warren Buffett",
     },
+    {
+      quote:
+        "'No matter how great the talent or efforts, some things just take time. You can't produce a baby in one month by getting nine women'",
+      author: "-- Warren Buffett",
+    },
   ];
 
   const updateQuote = () => {
