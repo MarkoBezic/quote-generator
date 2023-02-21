@@ -124,6 +124,11 @@ $(document).ready(() => {
         "'No matter how great the talent or efforts, some things just take time. You can't produce a baby in one month by getting nine women'",
       author: "-- Warren Buffett",
     },
+    {
+      quote:
+        "'If you can’t fly then run, if you can’t run then walk, if you can’t walk then crawl, but whatever you do you have to keep moving forward.'",
+      author: "-- Martin Luther King Jr.",
+    },
   ];
 
   const updateQuote = () => {
