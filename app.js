@@ -133,6 +133,11 @@ $(document).ready(() => {
       quote: "'Growth and comfort do not coexist'",
       author: "-- Ginni Rometty",
     },
+    {
+      quote:
+        "'The secret of change is to focus all your energy not on fighting the old, but on building the new.'",
+      author: "-- Elin Hilderbrand (The Hotel Nantucket)",
+    },
   ];
 
   const updateQuote = () => {
