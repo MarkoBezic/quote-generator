@@ -138,6 +138,11 @@ $(document).ready(() => {
         "'The secret of change is to focus all your energy not on fighting the old, but on building the new.'",
       author: "-- Elin Hilderbrand (The Hotel Nantucket)",
     },
+    {
+      quote:
+        "'Once you are exercising regularly, the hardest thing is to stop it.'",
+      author: "-- Erin Gray",
+    },
   ];
 
   const updateQuote = () => {
