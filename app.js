@@ -143,6 +143,11 @@ $(document).ready(() => {
         "'Once you are exercising regularly, the hardest thing is to stop it.'",
       author: "-- Erin Gray",
     },
+    {
+      quote:
+        "'Nothing can stop the man with the right mental attitude from achieving his goal; nothing on earth can help the man with the wrong mental attitude.'",
+      author: "-- Thomas Jefferson",
+    },
   ];
 
   const updateQuote = () => {
