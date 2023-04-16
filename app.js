@@ -148,6 +148,11 @@ $(document).ready(() => {
         "'Nothing can stop the man with the right mental attitude from achieving his goal; nothing on earth can help the man with the wrong mental attitude.'",
       author: "-- Thomas Jefferson",
     },
+    {
+      quote:
+        "'A reader lives a thousand lives before he dies . . . The man who never reads lives only one.'",
+      author: "-- George R.R. Martin",
+    },
   ];
 
   const updateQuote = () => {
